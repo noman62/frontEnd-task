@@ -32,35 +32,11 @@ const ProductsData = [
     selectedQuantity: 0
   },
   {
-    id:5,
-    name: "Fashionable Women's Handbag",
-    price: 70,
-    Image:
-      'https://images.unsplash.com/photo-1652427019219-0be0fb8855c1?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    selectedQuantity: 0
-  },
-  {
     id:6,
     name: "Stylish Women's Heels",
     price: 55,
     Image:
       'https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    selectedQuantity: 0
-  },
-  {
-    id:7,
-    name: 'Smartphone XYZ',
-    price: 500,
-    Image:
-      'https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    selectedQuantity: 0
-  },
-  {
-    id:8,
-    name: 'Laptop Pro',
-    price: 800,
-    Image:
-      'https://images.unsplash.com/photo-1602080858428-57174f9431cf?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     selectedQuantity: 0
   },
   {
