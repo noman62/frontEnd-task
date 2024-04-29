@@ -1,38 +1,40 @@
-# Your React E-commerce Application
+## Alex’s Kitchen
+### Branch naming convention:hotfix/bug-inventory-crash
+## pull request (PR) and merge
+#### 1.Commit and Push Changes: 
 
-Welcome to the documentation for your React E-commerce application. This README file will guide you through the setup, configuration, and usage of the application.
+` git add . `
+`git commit -m "Fix bug causing inventory crash"`
+`git push origin hotfix/bug-inventory-crash`
 
-## Table of Contents
-1. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Installation](#installation)
-2. [Usage](#usage)
+#### 2.Create Pull Request (PR): we have Go to the repository on GitHub, and need to create a new pull request from  hotfix branch to the production branch and Provide a clear title and description for the PR, summarizing the changes and explaining why the hotfix is necessary.
+#### 3.Merge PR: Once  PR has received approval from the necessary reviewers and any required checks have passed, we can merge it into the production branch.
+#### 4.Resolve Merge Conflicts (if any): If there are any merge conflicts between hotfix branch and the production branch, resolve them locally by checking out the production branch, pulling the latest changes, and then merging your hotfix branch into it.
 
-## Getting Started
+`git checkout production`
+`git pull origin production`
+`git merge hotfix/bug-inventory-crash`
 
-### Prerequisites
+# Digital Kitchen
 
+## Approach
 
-Before you begin, ensure you have the following installed:
+1. **Iterate Through Menu Collections**: 
+   - Loop through each menu collection object in the array.
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+2. **Loop Through Categories**: 
+   - For each menu collection, iterate through its categories array.
 
-### Installation
+3. **Match IDs**: 
+   - Compare the IDs in the `menuItemsIds` array of each category with the IDs of the items in the `menuItems` array.
 
-1. Clone the repository:
+4. **Extract Items**: 
+   - If there's a match, extract the corresponding menu item from the `menuItems` array and associate it with the category.
 
-   ```bash
-   git clone https://github.com/noman62/your-ecommerce-app.git
-   
-  ### Change into the project directory:
-  #### cd your-ecommerce-app
-  
-### Install dependencies:
-#### npm install   # or yarn install
+5. **Repeat**: 
+   - Continue this process for all menu collections and categories.
 
-### Usage 
-#### npm start   # or yarn start
-##### This will open the application in your default web browser at http://localhost:5173/.
-### Live site -> https://e-commerce-task-b8qtxujvu-noman62.vercel.app/
-# frontEnd-task
+6. **Organize Data**: 
+   - Store or organize the extracted items based on their categories.
+
+### code link : https://github.com/noman62/frontEnd-task.git
