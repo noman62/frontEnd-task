@@ -57,7 +57,7 @@ const ProductList = () => {
                 <img
                   src={medicine.Image}
                   className='object-cover w-full h-64 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
-                  style={{ width: '100%', height: '150px' }} // Set a fixed size for the image
+                  style={{ width: '100%', height: '150px' }} 
                   alt=''
                 />
               </CardContent>
@@ -70,7 +70,7 @@ const ProductList = () => {
                       onClick={() => deleteProduct(medicine.id)}
                       variant="contained"
                       color="error"
-                      size="small" // Set size to small
+                      size="small" 
                     >
                       <FontAwesomeIcon icon={faTrashAlt} />
                     </Button>
@@ -78,7 +78,7 @@ const ProductList = () => {
                       onClick={() => editProduct(medicine)}
                       variant="contained"
                       color="warning"
-                      size="small" // Set size to small
+                      size="small"
                     >
                       <FontAwesomeIcon icon={faEdit} />
                     </Button>
